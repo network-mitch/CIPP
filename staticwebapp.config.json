@@ -387,6 +387,10 @@
       "allowedRoles": ["admin","editor","helpdesk"]
     },
     {
+      "route": "/api/ExecCAExclusion",
+      "allowedRoles": ["admin","editor","helpdesk"]
+    },
+    {
       "route": "/api/ListUsers",
       "allowedRoles": ["admin","editor","helpdesk"]
     },
