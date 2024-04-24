@@ -388,7 +388,7 @@
     },
     {
       "route": "/api/ExecCAExclusion",
-      "allowedRoles": ["admin","editor","ca-exclude"]
+      "allowedRoles": ["admin","editor","ca_exclude"]
     },
     {
       "route": "/api/ListUsers",
