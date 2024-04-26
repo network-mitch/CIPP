@@ -111,7 +111,7 @@
       "allowedRoles": ["admin","editor","helpdesk"]
     },
     {
-      "route": "/api/ExecExecEmailForward",
+      "route": "/api/ExecEmailForward",
       "allowedRoles": ["admin","editor","helpdesk"]
     },
     {
