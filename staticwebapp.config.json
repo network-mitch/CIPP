@@ -252,11 +252,11 @@
     },
     {
       "route": "/api/ListLicenses",
-      "allowedRoles": ["admin","editor","helpdesk"]
+      "allowedRoles": ["admin","editor","helpdesk","readonly"]
     },
     {
       "route": "/api/ListLicensesAllTenants",
-      "allowedRoles": ["admin","editor","helpdesk"]
+      "allowedRoles": ["admin","editor","helpdesk","readonly"]
     },
     {
       "route": "/api/ListMFAUsers",
