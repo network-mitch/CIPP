@@ -240,7 +240,7 @@
     },
     {
       "route": "/api/ListGenericAllTenants",
-      "allowedRoles": ["admin","editor","helpdesk"]
+      "allowedRoles": ["admin","editor","helpdesk","readonly"]
     },
     {
       "route": "/api/ListGroups",
@@ -340,11 +340,11 @@
     },
     {
       "route": "/api/ListTenantDetails",
-      "allowedRoles": ["admin","editor","helpdesk"]
+      "allowedRoles": ["admin","editor","helpdesk","readonly"]
     },
     {
       "route": "/api/ListTenants",
-      "allowedRoles": ["admin","editor","helpdesk"]
+      "allowedRoles": ["admin","editor","helpdesk","readonly"]
     },
     {
       "route": "/api/ListTransportRules",
