@@ -239,11 +239,15 @@
       "allowedRoles": ["admin","editor","helpdesk"]
     },
     {
-      "route": "/api/ListGenericAllTenants",
-      "allowedRoles": ["admin","editor","helpdesk","readonly"]
+      "route": "/api/ListGroups",
+      "allowedRoles": ["admin","editor","helpdesk"]
     },
     {
-      "route": "/api/ListGroups",
+      "route": "/api/ListCippQueue",
+      "allowedRoles": ["admin","editor","helpdesk"]
+    },
+    {
+      "route": "/api/CippQueueEntry",
       "allowedRoles": ["admin","editor","helpdesk"]
     },
     {
