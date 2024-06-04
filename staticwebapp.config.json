@@ -351,6 +351,10 @@
       "allowedRoles": ["admin","editor","helpdesk","readonly"]
     },
     {
+      "route": "/api/ListGenericAllTenants",
+      "allowedRoles": ["admin","editor","helpdesk","readonly"]
+    },
+    {
       "route": "/api/ListTransportRules",
       "allowedRoles": ["admin","editor","helpdesk"]
     },
