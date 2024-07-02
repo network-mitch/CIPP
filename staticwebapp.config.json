@@ -24,7 +24,7 @@
     },
     {
       "route": "/api/ExecSAMSetup",
-      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous", "helpdesk"]
+      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous"]
     },
     {
       "route": "/api/AddStandardsDeploy",
@@ -32,379 +32,11 @@
     },
     {
       "route": "/LogoutRedirect",
-      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous", "helpdesk"]
+      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous"]
     },
     {
       "route": "/404",
-      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous", "helpdesk"]
-    },
-    {
-      "route": "/api/AddAPDevice",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/AddContact",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/AddGroup",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/AddGuest",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/AddSharedMailbox",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/AddTeam",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/AddUser",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/EditGroup",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/EditUser",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ExecBECCheck",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ExecConverttoSharedMailbox",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ExecCopyForSent",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ExecCreateTAP",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ExecDeviceAction",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ExecDisableEmailForward",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ExecDisableUser",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ExecEditCalendarPermissions",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ExecEditMailboxPermissions",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ExecEmailForward",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ExecGeoIPLookup",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ExecGetRecoveryKey",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ExecGroupsDelete",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ExecGroupsDeliveryManagement",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ExecGroupsHideFromGAL",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ExecHideFromGAL",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ExecMailboxMobileDevices",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ExecMailboxRestore",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ExecOffboardUser",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ExecOffboard_Mailboxpermissions",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ExecOneDriveShortCut",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ExecResetMFA",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ExecResetPass",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ExecRestoreDeleted",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ExecRevokeSessions",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ExecRunBackup",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ExecSendPush",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ExecSetMailboxQuota",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ExecSetOoO",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ExecUniversalSearch",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ExecUserSettings",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListAllTenantDeviceCompliance",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListAzureADConnectStatus",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListCalendarPermissions",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListConditionalAccessPolicies",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListContacts",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListDeviceDetails",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListDevices",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListDomains",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListExchangeConnectors",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListExternalTenantInfo",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListGroups",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListCippQueue",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/CippQueueEntry",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListIntunePolicy",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListLicenses",
-      "allowedRoles": ["admin","editor","helpdesk","readonly"]
-    },
-    {
-      "route": "/api/ListLicensesAllTenants",
-      "allowedRoles": ["admin","editor","helpdesk","readonly"]
-    },
-    {
-      "route": "/api/ListMFAUsers",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListMailQuarantine",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListMailboxMobileDevices",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListMailboxRules",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListMailboxStatistics",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListMailboxes",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListMessageTrace",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListOoO",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListOrg",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListRecipients",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListSharedMailboxAccountEnabled",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListSharedMailboxStatistics",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListSharepointQuota",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListSharepointSettings",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListSignIns",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListSites",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListSpamfilter",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListTeams",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListTeamsActivity",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListTeamsVoice",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListTenantDetails",
-      "allowedRoles": ["admin","editor","helpdesk","readonly"]
-    },
-    {
-      "route": "/api/ListTenants",
-      "allowedRoles": ["admin","editor","helpdesk","readonly"]
-    },
-    {
-      "route": "/api/ListGenericAllTenants",
-      "allowedRoles": ["admin","editor","helpdesk","readonly"]
-    },
-    {
-      "route": "/api/ListTransportRules",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListUserConditionalAccessPolicies",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListUserCounts",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListUserDevices",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListUserGroups",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListUserMailboxDetails",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListUserMailboxRules",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListUserPhoto",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListUserSettings",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListUserSigninLogs",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ExecCAExclusion",
-      "allowedRoles": ["admin","editor","ca_exclude"]
-    },
-    {
-      "route": "/api/ListUsers",
-      "allowedRoles": ["admin","editor","helpdesk"]
-    },
-    {
-      "route": "/api/ListmailboxPermissions",
-      "allowedRoles": ["admin","editor","helpdesk"]
+      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous"]
     },
     {
       "route": "/api/RemoveStandard",
@@ -417,6 +49,10 @@
     {
       "route": "/api/edit*",
       "allowedRoles": ["admin", "editor"]
+    },
+    {
+      "route": "/api/ExecSendPush",
+      "allowedRoles": ["admin", "editor", "readonly"]
     },
     {
       "route": "/api/ExecExcludeTenant",
@@ -440,15 +76,15 @@
     },
     {
       "route": "/",
-      "allowedRoles": ["admin", "editor", "readonly", "reader", "authenticated", "anonymous", "helpdesk"]
+      "allowedRoles": ["admin", "editor", "readonly", "reader", "authenticated", "anonymous"]
     },
     {
       "route": "/api/Public*",
-      "allowedRoles": ["admin", "editor", "readonly", "reader", "authenticated", "anonymous", "helpdesk"]
+      "allowedRoles": ["admin", "editor", "readonly", "reader", "authenticated", "anonymous"]
     },
     {
       "route": "*",
-      "allowedRoles": ["admin", "editor", "readonly", "reader", "helpdesk"]
+      "allowedRoles": ["admin", "editor", "readonly", "reader"]
     }
   ],
   "navigationFallback": {
