@@ -132,7 +132,7 @@ const ListClassicAlerts = () => {
                           showTimeSelect
                           timeFormat="HH:mm"
                           timeIntervals={15}
-                          dateFormat="Pp"
+                          dateFormat="dd-MM-yyyy"
                           onChange={(date) => setStartDate(date)}
                         />
                       </CCol>
@@ -144,7 +144,7 @@ const ListClassicAlerts = () => {
                           showTimeSelect
                           timeFormat="HH:mm"
                           timeIntervals={15}
-                          dateFormat="Pp"
+                          dateFormat="dd-MM-yyyy"
                           onChange={(date) => setEndDate(date)}
                         />
                       </CCol>
